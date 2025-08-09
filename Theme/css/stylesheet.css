@@ -4,10 +4,15 @@
 /* =================================== */
 @font-face {
   font-family: 'Vazir';
-  src: url('Theme/webfonts/Vazir-Regular.ttf') format('truetype');
+  src:
+  url('../webfonts/Vazir-Regular.woff2') format('woff2'),
+  url('../webfonts/Vazir-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+body {
+  font-family: 'Vazir', 'Poppins', sans-serif;
 }
 body, html {
   height: 100%;
