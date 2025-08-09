@@ -3,8 +3,13 @@
 /*  1. Basic Style 
 /* =================================== */
 @font-face {
-  font-family: "Vazir"; src: url('../webfonts/Vazir-Regular.woff2') format('woff2');
-} 
+  font-family: 'Vazir';
+  src: url('../webfonts/Vazir-Regular.woff2') format('woff2'),
+       url('../webfonts/Vazir-Regular.woff') format('woff'),
+       url('../webfonts/Vazir-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body, html {
   height: 100%;
 }
