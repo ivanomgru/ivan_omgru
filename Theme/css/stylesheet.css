@@ -4,9 +4,9 @@
 /* =================================== */
 @font-face {
   font-family: 'Vazir';
-  src:
-  url('../webfonts/Vazir-Regular.woff2') format('woff2'),
-  url('../webfonts/Vazir-Regular.ttf') format('truetype');
+  src: url('../webfonts/vazir-regular-webfont.woff2') format('woff2'),
+       url('../webfonts/vazir-regular-webfont.woff') format('woff'),
+       url('../webfonts/Vazir-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
