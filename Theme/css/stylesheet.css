@@ -3,7 +3,7 @@
 /*  1. Basic Style 
 /* =================================== */
 @font-face {
-  font-family: "Vazir"; src: url(../webfonts/Vazir-Regular.ttf); 
+  font-family: "Vazir"; src: url('../webfonts/Vazir-Regular.woff2') format('woff2');
 } 
 body, html {
   height: 100%;
