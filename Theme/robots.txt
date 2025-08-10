@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Allow: /
-
-Sitemap: https://ivanomgru.github.io/ivan_omgru/sitemap.xml
