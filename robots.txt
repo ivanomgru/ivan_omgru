@@ -1,4 +1,10 @@
 User-agent: *
 Disallow: /admin/
+Disallow: /private/
+Disallow: /*.zip$
 Allow: /
+
+# در صورت نیاز به تأخیر درخواست‌ها (گوگل آن را نادیده می‌گیرد)
+Crawl-delay: 10
+
 Sitemap: https://ivanomgru.github.io/ivan_omgru/sitemap.xml
